@@ -1,0 +1,9 @@
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+
+driver.get("https://arms.srmist.edu.in/")
+
+print("Title:", driver.title)
+
+driver.quit()
